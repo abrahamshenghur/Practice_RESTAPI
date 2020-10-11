@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var apiService = APIService()
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        apiService.getPopularMoviesData { (result, error) in
+            guard let result = result else {
+                print(error!)
+                return
+            }
+            
+            print("Result: \(result.movies)")
+        }
     }
 
 
