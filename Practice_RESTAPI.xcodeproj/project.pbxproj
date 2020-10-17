@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5245D4B2253AED1F00C7F755 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5245D4B1253AED1F00C7F755 /* MovieViewModel.swift */; };
 		526EC44E2531D6070015954B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EC44D2531D6070015954B /* AppDelegate.swift */; };
 		526EC4502531D6070015954B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EC44F2531D6070015954B /* ViewController.swift */; };
 		526EC4552531D6090015954B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526EC4542531D6090015954B /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5245D4B1253AED1F00C7F755 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		526EC44A2531D6070015954B /* Practice_RESTAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_RESTAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526EC44D2531D6070015954B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526EC44F2531D6070015954B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				526EC44D2531D6070015954B /* AppDelegate.swift */,
 				526EC44F2531D6070015954B /* ViewController.swift */,
+				5245D4B1253AED1F00C7F755 /* MovieViewModel.swift */,
 				526EC45F2531D85F0015954B /* Model.swift */,
 				526EC4612531DB820015954B /* APIService.swift */,
 				526EC4542531D6090015954B /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526EC4602531D85F0015954B /* Model.swift in Sources */,
+				5245D4B2253AED1F00C7F755 /* MovieViewModel.swift in Sources */,
 				526EC4502531D6070015954B /* ViewController.swift in Sources */,
 				526EC4622531DB820015954B /* APIService.swift in Sources */,
 				526EC44E2531D6070015954B /* AppDelegate.swift in Sources */,
